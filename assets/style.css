@@ -10,11 +10,21 @@ h1 {
     margin: 30px;
     
 }
-#container {
+.container {
     color: #1a8cff;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     font-size: 25px;
     
+}
+
+.box1 {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    border-color: #ff4d4d;
+    display: block;
+    text-align: center;
 }
