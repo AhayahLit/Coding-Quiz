@@ -1,0 +1,20 @@
+* {
+    background-color: #ff4dff;
+}
+h1 {
+    font-size: 60px;
+    text-align: center;
+    background-color: #ff99ff;
+    background: #ff3385;
+    border-radius: 30px;
+    margin: 30px;
+    
+}
+#container {
+    color: #1a8cff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 25px;
+    
+}
