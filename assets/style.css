@@ -23,14 +23,16 @@ h1 {
 .box2,
 .box3,
 .box4 {
+    text-align: center;
+    justify-content:center;
     display:block;
-    height: 15px;
+    height: 1px;
     width: 200px;
     border: 15px solid #ff4d4d;
     padding: 50px;
     margin: 10px;
-    text-align: center;
-    justify-content:center;
+    box-sizing: border-box: 400px;
+    
 }
 div .box1,
 div .box2,
