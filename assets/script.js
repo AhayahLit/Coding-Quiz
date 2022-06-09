@@ -2,6 +2,7 @@ var button= document.getElementById("startButton");
 var timer= document.getElementById("timer");
 var timerid;
 var totaltime= 5;
+var generate=;
 
 button.addEventListener("click", startGame)
 function startGame() {
@@ -16,9 +17,11 @@ function startGame() {
     }
 }
 var questions= [ {
-    Title: "question 1", 
-    Answers: ["answer 1", "answer2", "answer 3", "answer 4"],
-    CorrectAnswer: "correct answer",
+    Title: "What is 1+1?", 
+    Answers: ["2", "window", "11", "3"],
+    CorrectAnswer: "2",
     }
 ]
-
+function (questions) {
+    document.getElementById("replace-me").innerText = "question"
+}
