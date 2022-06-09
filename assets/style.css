@@ -24,33 +24,18 @@ h1 {
 .box3,
 .box4 {
     text-align: center;
-    justify-content:center;
     display: block;
-    height: 1px;
-    width: 200px;
-    border: 15px solid #ff4d4d;
-    padding: 50px;
+    height: 50px;
+    width: 400px;
+    border: 5px solid #ff4d4d;
+    padding: 40px;
     margin: 10px;
     box-sizing: border-box: 400px;
-    
-}
-div .box1,
-div .box2,
-div .box3,
-div .box4 {
-    font-size: 20px;
-    display: block;
-    text-align: center;
     font-weight: 900;
+    flex-wrap: wrap;
 }
-.question {
-    text-align: center;
-    justify-content:center;
-    display: block;
-    height: 1px;
-    width: 200px;
-    border: 15px solid #ff4d4d;
-    padding: 50px;
-    margin: 10px;
-    box-sizing: border-box: 400px;
+div .question {
+    width: 300px;
+    height: 100px;
+    border: 15px solid black;
 }
